@@ -19,9 +19,13 @@ const Hero = () => {
             <Button className="bg-primary hover:bg-primary-light text-white">
               My Projects <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
+            <a 
+              href="/assets/sudan-yadav-cv.pdf" 
+              download="Sudan-Yadav-CV.pdf"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-primary text-primary hover:bg-primary/10 h-10 px-4 py-2"
+            >
               Download CV <Download className="ml-2 h-4 w-4" />
-            </Button>
+            </a>
           </div>
         </div>
         <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
