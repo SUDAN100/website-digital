@@ -11,6 +11,7 @@ import Footer from "@/components/Footer";
 import { setupAnimation } from "@/utils/animation";
 import Stats from "@/components/Stats";
 import Testimonials from "@/components/Testimonials";
+import Features from "@/components/Features";
 
 const Index = () => {
   useEffect(() => {

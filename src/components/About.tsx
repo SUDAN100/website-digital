@@ -12,46 +12,33 @@ const About = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="flex justify-center">
-            <div className="relative">
-              <div className="absolute -inset-2 bg-primary/10 rounded-tl-3xl rounded-br-3xl blur-sm"></div>
-              <img 
-                src="https://images.unsplash.com/photo-1551836022-d5d88e9218df" 
-                alt="Sudan Yadav Professional Photo"
-                className="rounded-tl-3xl rounded-br-3xl shadow-lg relative z-10 max-w-sm w-full object-cover"
-              />
+        <div className="max-w-3xl mx-auto space-y-6 animated-section">
+          <h3 className="text-2xl font-bold text-primary">
+            Digital Marketing Expert & Content Writer
+          </h3>
+          <p className="text-gray-600">
+            I am a results-driven Digital Marketing Expert with extensive experience in SEO, PPC, and content writing. I offer strategic 
+            marketing and content solutions to help businesses grow their online presence through high-converting ad campaigns, 
+            SEO-optimized content, and data-driven strategies.
+          </p>
+          <div className="space-y-3">
+            <div className="flex items-start gap-3">
+              <CheckCircle className="text-secondary mt-1 flex-shrink-0" size={20} />
+              <p className="text-gray-600">
+                <strong className="text-dark">Expert in Meta & Google Ads:</strong> Creating high-performing ad campaigns that drive leads and sales
+              </p>
             </div>
-          </div>
-          
-          <div className="space-y-6 animated-section">
-            <h3 className="text-2xl font-bold text-primary">
-              Digital Marketing Expert & Content Writer
-            </h3>
-            <p className="text-gray-600">
-              I am a results-driven Digital Marketing Expert with extensive experience in SEO, PPC, and content writing. I offer strategic 
-              marketing and content solutions to help businesses grow their online presence through high-converting ad campaigns, 
-              SEO-optimized content, and data-driven strategies.
-            </p>
-            <div className="space-y-3">
-              <div className="flex items-start gap-3">
-                <CheckCircle className="text-secondary mt-1 flex-shrink-0" size={20} />
-                <p className="text-gray-600">
-                  <strong className="text-dark">Expert in Meta & Google Ads:</strong> Creating high-performing ad campaigns that drive leads and sales
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <CheckCircle className="text-secondary mt-1 flex-shrink-0" size={20} />
-                <p className="text-gray-600">
-                  <strong className="text-dark">SEO Specialist:</strong> On-page & Off-page SEO strategies to improve search rankings
-                </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <CheckCircle className="text-secondary mt-1 flex-shrink-0" size={20} />
-                <p className="text-gray-600">
-                  <strong className="text-dark">Content Creation:</strong> SEO-optimized blog posts, articles, and web content that engages and converts
-                </p>
-              </div>
+            <div className="flex items-start gap-3">
+              <CheckCircle className="text-secondary mt-1 flex-shrink-0" size={20} />
+              <p className="text-gray-600">
+                <strong className="text-dark">SEO Specialist:</strong> On-page & Off-page SEO strategies to improve search rankings
+              </p>
+            </div>
+            <div className="flex items-start gap-3">
+              <CheckCircle className="text-secondary mt-1 flex-shrink-0" size={20} />
+              <p className="text-gray-600">
+                <strong className="text-dark">Content Creation:</strong> SEO-optimized blog posts, articles, and web content that engages and converts
+              </p>
             </div>
           </div>
         </div>

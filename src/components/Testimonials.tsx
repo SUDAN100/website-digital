@@ -1,11 +1,12 @@
+
 import { Quote } from "lucide-react";
 
 const Testimonials = () => {
   return (
-    <section className="py-20 px-4">
+    <section className="py-20 px-4 bg-black">
       <div className="container mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">What Our Clients Say</h2>
+          <h2 className="text-4xl font-bold mb-4 text-white">What Our Clients Say</h2>
           <p className="text-white/80">Trusted by leading tech companies worldwide</p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -29,7 +30,10 @@ const Testimonials = () => {
               image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80"
             }
           ].map((testimonial, index) => (
-            <div key={index} className="bg-forest-light p-8 rounded-xl relative">
+            <div 
+              key={index} 
+              className="bg-gray-900 p-8 rounded-xl relative border border-gray-800"
+            >
               <Quote className="text-mint w-8 h-8 mb-4" />
               <p className="text-white/90 mb-6">{testimonial.quote}</p>
               <div className="flex items-center gap-4">
@@ -39,7 +43,7 @@ const Testimonials = () => {
                   className="w-12 h-12 rounded-full object-cover"
                 />
                 <div>
-                  <p className="font-medium">{testimonial.author}</p>
+                  <p className="font-medium text-white">{testimonial.author}</p>
                   <p className="text-white/60 text-sm">{testimonial.role}</p>
                 </div>
               </div>
