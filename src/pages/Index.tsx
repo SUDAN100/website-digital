@@ -9,6 +9,8 @@ import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { setupAnimation } from "@/utils/animation";
+import Stats from "@/components/Stats";
+import Testimonials from "@/components/Testimonials";
 
 const Index = () => {
   useEffect(() => {
@@ -46,8 +48,10 @@ const Index = () => {
       <Hero />
       <About />
       <Services />
+      <Stats />
       <Experience />
       <Skills />
+      <Testimonials />
       <Contact />
       <Footer />
     </div>

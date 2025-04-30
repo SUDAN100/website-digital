@@ -9,6 +9,14 @@ const Footer = () => {
           © {new Date().getFullYear()} Sudan Yadav. All rights reserved. Made with 
           <Heart className="h-4 w-4 text-red-500 fill-current" /> in Nepal
         </p>
+        <div className="mt-4 flex justify-center space-x-4">
+          <a href="https://www.linkedin.com/in/sudanyadav/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-gray-700">
+            LinkedIn
+          </a>
+          <a href="mailto:sudhanyadav8@gmail.com" className="text-gray-500 hover:text-gray-700">
+            Email
+          </a>
+        </div>
       </div>
     </footer>
   );
