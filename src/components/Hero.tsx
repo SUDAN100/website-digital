@@ -28,12 +28,12 @@ const Hero = () => {
           <div className="relative">
             <div className="absolute -inset-0.5 bg-secondary/20 rounded-2xl blur opacity-30"></div>
             <img
-              src="https://images.unsplash.com/photo-1560250097-0b93528c311a"
+              src="/lovable-uploads/05bb2ff1-048d-4c90-8623-e4359f810618.png"
               alt="Sudan Yadav"
               className="relative rounded-2xl shadow-2xl max-w-sm w-full object-cover h-[28rem]"
             />
             <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-white p-4 rounded-xl shadow-xl border border-gray-100">
-              <p className="text-primary text-xl md:text-3xl font-bold">3+ Years</p>
+              <p className="text-primary text-xl md:text-3xl font-bold">1+ Years</p>
               <p className="text-gray-600 text-sm">Experience</p>
             </div>
           </div>

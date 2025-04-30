@@ -19,7 +19,7 @@ const Experience = () => {
       type: "work",
       title: "Freelance",
       role: "Digital Marketer & Content Writer",
-      date: "Nov 2024 - Present",
+      date: "Nov 2023 - Present",
       description: [
         "Provide SEO-friendly content writing services, specializing in blog posts, articles, and web content for clients in digital marketing, tech, and business industries.",
         "Design and manage Meta Ads and PPC campaigns to drive leads and sales for small and medium-sized businesses.",
