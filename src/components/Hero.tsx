@@ -1,44 +1,41 @@
+
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Star } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="pt-32 pb-20 px-4">
-      <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
-        <div className="space-y-8">
-          <div className="flex items-center gap-2 bg-mint/10 w-fit px-4 py-2 rounded-full border border-mint/20">
-            <Star className="w-4 h-4 text-mint" />
-            <span className="text-mint text-sm font-medium">AI-Powered Recruitment</span>
-          </div>
-          <h1 className="text-5xl md:text-7xl font-bold leading-tight text-white">
-            Hire top
-            <br />
-            tech talent
-            <br />
-            wisely
+    <section id="home" className="min-h-screen flex items-center bg-gradient-to-br from-light to-white pt-20">
+      <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="space-y-6 order-2 lg:order-1">
+          <p className="text-secondary font-medium">Digital Marketing Expert</p>
+          <h1 className="text-4xl md:text-6xl font-bold text-dark leading-tight">
+            Hi, I'm <span className="text-primary">Sudan Yadav</span>
           </h1>
-          <p className="text-lg text-white/80 max-w-md">
-            Find and hire the best tech professionals for your team with our AI-powered recruitment platform.
+          <p className="text-lg text-gray-600 max-w-md">
+            A results-driven Digital Marketing Expert with experience in SEO, PPC, and content writing.
+            Passionate about helping businesses grow their online presence through high-converting campaigns.
           </p>
-          <div className="flex items-center gap-4">
-            <Button className="bg-mint hover:bg-mint/90 text-forest font-medium px-8 py-6 text-lg">
-              Get Started <ArrowRight className="ml-2 h-5 w-5" />
+          <div className="flex flex-wrap gap-4 pt-2">
+            <Button className="bg-primary hover:bg-primary-light text-white">
+              My Projects <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button variant="outline" className="border-mint/20 text-mint hover:bg-mint/10">
-              Watch Demo
+            <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
+              Download CV <Download className="ml-2 h-4 w-4" />
             </Button>
           </div>
         </div>
-        <div className="relative">
-          <div className="absolute -inset-0.5 bg-mint/20 rounded-2xl blur opacity-30" />
-          <img
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
-            alt="Tech professional"
-            className="relative rounded-2xl shadow-2xl"
-          />
-          <div className="absolute -bottom-10 -left-10 bg-forest-light p-6 rounded-xl shadow-xl border border-mint/10">
-            <p className="text-mint text-4xl font-bold">124k+</p>
-            <p className="text-white/80">Active candidates</p>
+        <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
+          <div className="relative">
+            <div className="absolute -inset-0.5 bg-secondary/20 rounded-2xl blur opacity-30"></div>
+            <img
+              src="https://images.unsplash.com/photo-1560250097-0b93528c311a"
+              alt="Sudan Yadav"
+              className="relative rounded-2xl shadow-2xl max-w-sm w-full object-cover h-[28rem]"
+            />
+            <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-white p-4 rounded-xl shadow-xl border border-gray-100">
+              <p className="text-primary text-xl md:text-3xl font-bold">3+ Years</p>
+              <p className="text-gray-600 text-sm">Experience</p>
+            </div>
           </div>
         </div>
       </div>
